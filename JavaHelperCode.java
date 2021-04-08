@@ -31,3 +31,11 @@ Arrays to Set:
 -----------------
 Set<Character> set = new HashSet<>(Arrays.asList(new Character[]{'a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U'}));
 
+
+HigherKey/LowerKey:
+---------------------
+
+TreeMap<Integer,Integer> map = new TreeMap<Integer,Integer>();
+map.higherKey(key);
+map.lowerKey(key);
+
